@@ -1,0 +1,232 @@
+body{
+    background-color: black;
+    
+font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+
+}
+
+p{
+    color: white;
+}
+
+header{
+    background-color: white;
+    height: 17vh;
+    border: 3px solid;
+  color: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1000;  
+}
+@media (max-width: 600px) {
+.logo-nike{
+    height:auto ;
+    width: 20%;
+     
+}}
+ul{
+    display: flex;
+    justify-content: space-around; 
+    list-style-type: none;
+   color: black;
+   font-size: large;
+}
+.list1:hover{
+    text-decoration: underline;
+    font-size: larger;   
+}
+.list2:hover{
+    text-decoration: underline;
+    font-size: larger;   
+}
+.list3:hover{
+    text-decoration: underline;
+    font-size: larger;   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.fondo {
+  height: 60vh;  
+  object-fit: cover;  
+  width: 100%;
+}
+@keyframes slideInFromLeft {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+h1{
+    color: white;
+     
+    animation: slideInFromLeft 1s ease-out;
+}
+
+h2{
+    color: white;
+    animation: slideInFromLeft 1s ease-out;
+}
+.div-cont, .div-cont2 {
+    background-color: blue;
+    height: auto;   
+    border: 3px solid;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px; 
+}
+@media (max-width: 600px) {
+  .div-cont, .div-cont2  {
+     background-color:black;
+    height: auto;   
+    border: 3px solid;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 20px; 
+  }}
+.prod{
+    border: 3px solid;
+    border-color: black;
+    background-color: black;
+    height: auto;
+    width: 300px;
+}
+.prod2{
+    border: 3px solid;
+    border-color: black;
+    background-color: black;
+    height: auto;
+    width: 300px;
+}
+ 
+@media (max-width: 600px) {
+  .prod,.prod2 {
+    height: auto;
+    width: 100%;
+    position: relative;
+    top:20px ;
+  }}
+ 
+button {
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #2C6E2F;
+}
+@media (max-width: 600px) {
+.fondo-runing{
+    height: 37vh;
+    position:relative;
+    top: 100px;}
+}
+footer{
+    background-color: white;
+    border: 2px solid;
+    height: 24vh;
+}
+.info{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+}
+.info2:hover{
+    text-decoration: underline;
+    font-size: larger;   
+}
+@media (max-width: 600px) {
+.logo-nike2{
+    height:35% ;
+    width: auto;
+    position: relative;
+    top: 2vh;
+}}
+@media (max-width: 600px) {
+    .info {
+        display: flex;
+        flex-direction: column; 
+        justify-content: center; 
+        align-items: center; 
+        position: relative;
+        top: 4vh;
+        margin-top: 1vh;
+    }}
+.just{
+    position: relative;
+    left: 25%;
+}
+@media (max-width: 600px) {
+button {
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    position:relative;
+    left: 30%;
+}}
+.cont-img {
+     
+    height: auto;   
+    border: 3px solid;
+    display: flex;
+    color: white;
+    justify-content:space-between;
+    flex-wrap: wrap;
+ 
+    width: 100%;
+}
+.tienda{
+     
+    border: 3px solid;
+    border-color: black;
+    background-color: black;
+    height: auto;
+    width: 25%;
+}
+.tienda1{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 768px) {
+  .tienda {
+    width: 90%;
+    margin-bottom: 10px; 
+  }
+}
+@media (max-width: 768px) {
+   .map {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+    }
+.empty-cart{
+    color: white;
+    font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.producto{
+    color: white;
+}
+#total{
+    display: none;
+}
